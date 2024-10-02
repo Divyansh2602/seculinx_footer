@@ -1,0 +1,140 @@
+.footer {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(64, 43, 12, 1) 100%
+    );
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .one {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-center {
+    margin-left: 120vh;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-top: 70px;
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .header-center {
+    text-align: center;
+  }
+  
+  .header-right {
+    text-align: right;
+  }
+  
+  .footer-center,
+  .footer-right {
+    text-align: right;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .home {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 30px;
+  }
+  
+  .home .you {
+    color: #00a2ff;
+  }
+  
+  .footer-center ul,
+  .footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 150px;
+    margin-right: 30px;
+  }
+  
+  .footer-center li,
+  .footer-right li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 80px;
+  }
+  
+  .footer-icons a {
+    margin: 0 10px;
+    margin-bottom: 100px;
+  }
+  
+  .footer-icons img {
+    width: 50px;
+    height: 40px;
+    filter: invert(1);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .one {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-left,
+    .footer-center,
+    .footer-right {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .footer-left {
+      flex-direction: column;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  }
+  
